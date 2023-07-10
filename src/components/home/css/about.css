@@ -1,0 +1,96 @@
+.about
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDE8E2;
+    padding: 100px 65px;
+    gap: 50px;
+}
+
+.about-left
+{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-left h1
+{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #640E23;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.about-left-img img
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.about-left-img img
+{
+    object-fit: cover;
+}
+
+.about-right
+{
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.about-right-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-right-text p
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-right-images
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.about-right-images img
+{
+    width: 250px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.about-right button
+{
+    width: 30%;
+    padding: 15px 60px;
+    border-radius: 45px;
+    border: #640E23 2px solid;
+    background-color: #640E23;
+    color: #FDE8E2;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.about-right button:hover
+{
+    background-color: #FFF;
+    color: #640E23;
+}

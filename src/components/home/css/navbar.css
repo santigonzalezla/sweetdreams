@@ -1,0 +1,57 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 65px;
+}
+
+.navbar-logo
+{
+    flex-basis: 25%;
+}
+
+.navbar-logo h1
+{
+    font-size: 2rem;
+    color: #640E23;
+    font-weight: 300;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.navbar-links
+{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-links ul
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar-links ul > li
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar-links ul > li:hover
+{
+    cursor: pointer;
+    color: #640E23;
+}
+
+.navbar-options
+{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}

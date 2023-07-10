@@ -1,0 +1,127 @@
+.contact
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 0;
+}
+
+.contact-left
+{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 100px 50px 100px 150px;
+    gap: 20px;
+}
+
+.contact-left h1
+{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #640E23;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.contact-left p
+{
+    font-size: 14px;
+}
+
+.contact-left-form
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-left-form input,
+.contact-left-form textarea
+{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #640E23;
+    color: #640E23;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.contact-left-form textarea
+{
+    resize: none;
+    height: 100px;
+}
+
+.contact-left-form-top
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.contact-left-form button
+{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 45px;
+    background-color: #FDE8E2;
+    color: #640E23;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contact-left-form button:hover
+{
+    background-color: #640E23;
+    color: #FDE8E2;
+}
+
+
+.contact-right
+{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 75px 100px;
+    gap: 50px;
+    background-color: #FDE8E2;
+}
+
+.contact-right h1
+{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #640E23;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.contact-right-item
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+.contact-right-item span
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
